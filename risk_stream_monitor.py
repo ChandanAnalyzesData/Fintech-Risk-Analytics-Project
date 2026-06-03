@@ -3,8 +3,13 @@ Fintech Risk Stream Monitor Engine
 Purpose: Simulates an automated risk engine checking a continuous stream 
          of batch transaction amounts for high-value anomalies and systemic threats.
 """
+# TODO:
+# 1. Replace hardcoded 'transaction_batch' with dynamic SQL/Pandas extraction.
+# 2. Integrate 'audit_risk_data' function into the main execution pipeline.
+# 3. Add error handling for database connection drops.
 
 # Simulated batch data extracted from database operations
+
 transaction_batch = [4000, 125000, 60000, 2500, 500000, 15000]
 
 print("=========================================")

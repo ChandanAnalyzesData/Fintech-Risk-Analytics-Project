@@ -16,3 +16,5 @@ This repository contains an end-to-end data automation pipeline designed for fin
 2. **Phase 2 (Python Core Automation):** Completed a runtime processing engine utilizing loops and conditional flags to parse batch streams.
 3. **Phase 3 (Next Step):** Integrating the **Pandas** library to pipe live database queries directly into native Python DataFrames for real-time risk profiling.
 
+## 📅 Development Log
+* **June 4, 2026:** Finalized development environment and established Git-to-VS Code integration. Preparing for Phase 3 integration of Pandas and SQLite database connectors.
